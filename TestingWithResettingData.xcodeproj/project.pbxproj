@@ -14,6 +14,7 @@
 		78FF79671BD7E73D00CB0048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FF79651BD7E73D00CB0048 /* LaunchScreen.storyboard */; };
 		78FF79721BD7E73D00CB0048 /* TestingWithResettingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF79711BD7E73D00CB0048 /* TestingWithResettingDataTests.swift */; };
 		78FF797D1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF797C1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift */; };
+		78FF798B1BD7E93200CB0048 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF798A1BD7E93200CB0048 /* main.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		78FF79781BD7E73D00CB0048 /* TestingWithResettingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingWithResettingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FF797C1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingWithResettingDataUITests.swift; sourceTree = "<group>"; };
 		78FF797E1BD7E73D00CB0048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FF798A1BD7E93200CB0048 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				78FF79631BD7E73D00CB0048 /* Assets.xcassets */,
 				78FF79651BD7E73D00CB0048 /* LaunchScreen.storyboard */,
 				78FF79681BD7E73D00CB0048 /* Info.plist */,
+				78FF798A1BD7E93200CB0048 /* main.swift */,
 			);
 			path = TestingWithResettingData;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				78FF795F1BD7E73D00CB0048 /* ViewController.swift in Sources */,
 				78FF795D1BD7E73D00CB0048 /* AppDelegate.swift in Sources */,
+				78FF798B1BD7E93200CB0048 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestingWithResettingData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onefootball.TestingWithResettingData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestingWithResettingData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onefootball.TestingWithResettingData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
