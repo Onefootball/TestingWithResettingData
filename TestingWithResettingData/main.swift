@@ -7,7 +7,7 @@ import UIKit
 #if DEBUG
 autoreleasepool {
     if Process.arguments.contains("--ResetData") {
-        
+        ApplicationResetManager.reset()
     }
 }
 #endif

@@ -15,6 +15,7 @@
 		78FF79721BD7E73D00CB0048 /* TestingWithResettingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF79711BD7E73D00CB0048 /* TestingWithResettingDataTests.swift */; };
 		78FF797D1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF797C1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift */; };
 		78FF798B1BD7E93200CB0048 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF798A1BD7E93200CB0048 /* main.swift */; settings = {ASSET_TAGS = (); }; };
+		78FF798D1BD7EC7400CB0048 /* ApplicationResetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF798C1BD7EC7400CB0048 /* ApplicationResetManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		78FF797C1BD7E73D00CB0048 /* TestingWithResettingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingWithResettingDataUITests.swift; sourceTree = "<group>"; };
 		78FF797E1BD7E73D00CB0048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FF798A1BD7E93200CB0048 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		78FF798C1BD7EC7400CB0048 /* ApplicationResetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationResetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				78FF79651BD7E73D00CB0048 /* LaunchScreen.storyboard */,
 				78FF79681BD7E73D00CB0048 /* Info.plist */,
 				78FF798A1BD7E93200CB0048 /* main.swift */,
+				78FF798C1BD7EC7400CB0048 /* ApplicationResetManager.swift */,
 			);
 			path = TestingWithResettingData;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				78FF795F1BD7E73D00CB0048 /* ViewController.swift in Sources */,
 				78FF795D1BD7E73D00CB0048 /* AppDelegate.swift in Sources */,
+				78FF798D1BD7EC7400CB0048 /* ApplicationResetManager.swift in Sources */,
 				78FF798B1BD7E93200CB0048 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -390,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TestingWithResettingDataUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onefootball.TestingWithResettingDataUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TestingWithResettingDataUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onefootball.TestingWithResettingDataUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
